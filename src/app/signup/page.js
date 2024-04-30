@@ -1,9 +1,10 @@
 import Layout from "@/components/layout/authentication/layout";
+import SignupCard from "@/components/layout/signup/signup-card";
 
 const SignUp = () => {
     return (
         <Layout>
-            signup page
+            <SignupCard />
         </Layout>
     )
 }
