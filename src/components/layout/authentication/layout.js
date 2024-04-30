@@ -4,9 +4,9 @@ const Layout = ({children}) => {
     return (
         <div className="auth-layout w-screen h-screen">
             <Header/>
-            <div className="auth-layout__content">
+            <main className={`grid grid-cols-12 px-5 md:px-20 transition-all duration-500`}>
                 {children}
-            </div>
+            </main>
         </div>
     )
 }
