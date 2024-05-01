@@ -5,13 +5,11 @@ import {Input} from "@/components/ui/input";
 import {Button} from "@/components/ui/button";
 import {useForm} from "react-hook-form";
 import Link from "next/link";
-import {DatePicker} from "@/components/layout/signup/date-picker";
+import {DatePicker} from "@/components/signup/date-picker";
 import {
     Select,
     SelectContent,
-    SelectGroup,
     SelectItem,
-    SelectLabel,
     SelectTrigger,
     SelectValue
 } from "@/components/ui/select";
